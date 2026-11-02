@@ -1,0 +1,29 @@
+{
+  "enable": {
+    "description": "启用提示音",
+    "type": "bool",
+    "default": true
+  },
+  "wav_path": {
+    "description": "音效文件路径",
+    "hint": "留空则使用系统提示音。可用 C:\\Windows\\Media 下的 wav，例如 Windows Notify System Generic.wav、Alarm01.wav。",
+    "type": "string",
+    "default": "C:\\Windows\\Media\\Windows Notify System Generic.wav"
+  },
+  "min_seconds": {
+    "description": "最短耗时（秒）",
+    "hint": "本轮任务超过这个时长才响，避免每次闲聊都响。",
+    "type": "float",
+    "default": 8
+  },
+  "cooldown_seconds": {
+    "description": "冷却时间（秒）",
+    "type": "float",
+    "default": 3
+  },
+  "only_private": {
+    "description": "只在私聊触发",
+    "type": "bool",
+    "default": true
+  }
+}

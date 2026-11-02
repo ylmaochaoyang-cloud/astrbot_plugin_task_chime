@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.bak
+*.bak-*
+metadata.yaml.bak-*
+.idea/
+.vscode/
+.DS_Store

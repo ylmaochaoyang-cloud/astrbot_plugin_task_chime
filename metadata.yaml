@@ -1,0 +1,13 @@
+name: astrbot_plugin_task_chime
+display_name: 本地提示音
+author: 小幽（和他的大肥鱼
+version: 1.0.0
+repo: https://github.com/ylmaochaoyang-cloud/astrbot_plugin_task_chime
+contact: https://github.com/ylmaochaoyang-cloud/astrbot_plugin_task_chime/issues
+desc: Agent 跑完一轮任务后，在你的电脑上响一声。只在耗时超过阈值的私聊里触发，带冷却；找不到音效文件会自动回退系统提示音，非 Windows 宿主静默跳过，不报错也不阻塞消息。
+short_desc: 任务跑完，电脑响一声
+astrbot_version: ">=4.28.0"
+support_platforms:
+  - aiocqhttp
+  - webchat
+  - weixin_oc

@@ -1,7 +1,7 @@
 name: astrbot_plugin_task_chime
 display_name: 本地提示音
 author: 小幽（和他的大肥鱼
-version: 1.0.0
+version: 1.0.1
 repo: https://github.com/ylmaochaoyang-cloud/astrbot_plugin_task_chime
 contact: https://github.com/ylmaochaoyang-cloud/astrbot_plugin_task_chime/issues
 social_link: https://github.com/ylmaochaoyang-cloud
